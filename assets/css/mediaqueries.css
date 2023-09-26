@@ -1,0 +1,187 @@
+/* ================== TABLET ================== */
+@media (max-width: 992px) {
+  .nav {
+    gap: 10px;
+  }
+
+  .list-navbar {
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    right: 5%;
+    width: 75%;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid black;
+    border-top: 0;
+    border-radius: 0px 0px 15px 15px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+  }
+
+  .list-navbar a {
+    font-size: 18px;
+  }
+
+  .menu-label {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+    padding-right: 40px;
+  }
+
+  .menu-label img {
+    height: 20px;
+    width: 25px;
+  }
+
+  #menu-toggle:checked + .list-navbar {
+    display: flex;
+  }
+
+  /* HERO */
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .hero-info h1 {
+    width: 90%;
+    max-width: 500px;
+    min-width: unset;
+  }
+
+  .hero-info p {
+    width: 60%;
+    max-width: 600px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  /* INFO/CARDS */
+  #info h2 {
+    text-align: center;
+    width: 80%;
+  }
+
+  .info-cards-container {
+    max-width: 80%;
+  }
+
+  /* CONTACT */
+  #contact {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  #contact h2 {
+    display: flex;
+    justify-content: left;
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 15%;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 68%;
+    padding-left: 76px;
+  }
+
+  .contact-container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    width: 100%;
+  }
+
+  .contact-redes {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 320px;
+  }
+
+  .contact-img {
+    display: none;
+  }
+}
+
+/* ================== MOBILE ================== */
+@media (max-width: 576px) {
+  .list-navbar {
+    width: 70%;
+  }
+
+  /* HERO */
+  .hero-info p {
+    width: 70%;
+    max-width: unset;
+  }
+
+  /* CONTACT */
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact h2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    width: 65%;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-info h3 {
+    padding-left: 10%;
+  }
+
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+  }
+
+  .contact-redes {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .contact-redes img {
+    width: 40%;
+  }
+}

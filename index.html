@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>navbar</title>
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/mediaqueries.css">
 </head>
 
 <body>
@@ -14,6 +15,11 @@
     <img src="./assets/img/Hamburguesa.png" class="burguer" />
 
     <nav class="nav">
+      <label for="menu-toggle" class="menu-label">
+        <img src="./assets/img/menu.png" alt="Imagen menu" class="menu-icon" />
+      </label>
+      <input type="checkbox" id="menu-toggle" />
+
       <ul class="list-navbar">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Productos</a></li>
@@ -29,9 +35,7 @@
     <section id="hero">
       <div class="hero-info">
         <h1>Solo creemos en lo mejor.</h1>
-        <p>
-          Más que una hamburguesa.
-        </p>
+        <p>Más que una hamburguesa.</p>
         <div class="bt-container">
           <a class="bt_black" href="#">CALL TO ACTION</a>
           <a class="bt_white" href="#">LEARN MORE</a>
@@ -42,19 +46,114 @@
       </div>
     </section>
     <!-- HERO -->
+
     <!-- ABOUT -->
     <section id="about">
       <div class="about-info">
         <p>
-          Empresa líder en el servicio de comida rápida a nivel nacional. Reconocidos por nuestra ética, calidad y
-          servicios personalizados. Nos encontramos en continuo crecimiento y expansión, siempre deseosos de
-          proporcionar la mejor experiencia gastronómica a nuestros comensales.
+          Empresa líder en el servicio de comida rápida a nivel nacional.
+          Reconocidos por nuestra ética, calidad y servicios personalizados.
+          Nos encontramos en continuo crecimiento y expansión, siempre
+          deseosos de proporcionar la mejor experiencia gastronómica a
+          nuestros comensales.
         </p>
       </div>
     </section>
     <!-- ABOUT -->
+
+    <!-- INFO -->
+    <section id="info">
+      <h2>Nuestros beneficios</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+        suscipit laudantium voluptates voluptatibus consequuntur eius ullam.
+        Cupiditate porro asperiores cumque molestias voluptatem amet nihil ab?
+      </p>
+      <div class="info-cards-container">
+        <!-- CARD 1 -->
+        <div class="info-card">
+          <img src="./assets/img/hamburguesa (1).png" alt="Icono NFT" />
+          <h3>Calidad garantizada</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+            quibusdam dignissimos iusto, unde ullam nemo ipsum maiores iste,
+            facere consequatur inventore eligendi est omnis mollitia eveniet,
+            esse rem distinctio sunt hic provident officiis obcaecati! Minima.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="info-card">
+          <img src="./assets/img/trigo.png" alt="Icono NFT" />
+          <h3>Apto para todos</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
+            quo tempora praesentium pariatur soluta nesciunt ullam dolore
+            quibusdam tenetur repudiandae enim distinctio, repellat asperiores
+            omnis iure sunt nobis placeat consectetur ipsam aspernatur. Cum,
+            nisi pariatur.
+          </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="info-card">
+          <img src="./assets/img/chef-masculino.png" alt="Icono NFT" />
+          <h3>El mejor servicio</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+            dolorem, possimus itaque reiciendis recusandae a laudantium vero
+            corrupti at cupiditate nobis vitae perferendis doloremque hic
+            accusamus alias architecto quae aliquid impedit. Corrupti adipisci
+            quaerat illo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- INFO -->
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contáctanos</h2>
+
+        <div class="contact-info">
+          <h3>Jupiter.Australia</h3>
+          <ul class="contact-list">
+            <li><img src="./assets/img/ubicacion.png" alt="ubicación" /><span>Calle falsa 123</span></li>
+            <li><img src="./assets/img/email.png" alt="email" /><span>mail@mail.com</span></li>
+            <li><img src="./assets/img/llamada.png" alt="teléfono" /><span>(0261)155-667-889</span></li>
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <h3>Franco Nardella</h3>
+          <ul class="contact-list">
+            <li><img src="./assets/img/ubicacion.png" alt="ubicación" /><span>Boedo 2318</span></li>
+            <li><img src="./assets/img/email.png" alt="email" /><span>franconardella94@gmail.com</span></li>
+            <li><img src="./assets/img/llamada.png" alt="teléfono" /><span>(0261)155-667-889</span></li>
+          </ul>
+        </div>
+        <div class="contact-redes">
+          <a href="#"><img src="./assets/img/gorjeo.png" alt="Icono de twitter" /></a>
+          <a href="#"><img src="./assets/img/instagram.png" alt="Icono de instagram" /></a>
+          <a href="#"><img src="./assets/img/facebook.png" alt="Icono de facebook" /></a>
+        </div>
+      </div>
+      </div>
+      <div class="contact-img">
+        <img src="./assets/img/map.png" alt="food" />
+      </div>
+    </section>
+    <!-- CONTACT -->
   </main>
   <!-- MAIN -->
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="./assets/img/Hamburguesa.png" alt="Logo del footer" />
+    <p></p>
+  </footer>
+  <!-- FOOTER -->
 </body>
 
 </html>
